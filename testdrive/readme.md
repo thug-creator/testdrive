@@ -32,3 +32,4 @@ python manage.py startapp myapp
 # Перейдем в файл settings.py и в разделе INSTALLED_APPS впишем в конце название приложения myapp
 # Запускаем сервер
 python manage.py runserver
+---
