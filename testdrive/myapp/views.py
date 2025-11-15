@@ -34,13 +34,15 @@ def testdrive(request):
             name = userform.cleaned_data['name']
             phone = userform.cleaned_data['phone']
             email = userform.cleaned_data['email']
+            datatime = userform.cleaned_data['datatime']
             car = int(userform.cleaned_data['car'])
             coment = userform.cleaned_data['coment']
             car = list(filter(lambda elem: elem[0] == car, CARS))[0][1]
             users.append({'name': name,
                           'phone': phone,
                           'email': email,
-                          'car': car})
+                          'car': car,
+                         'datatime': datatime})
         else:
             return HttpResponse('Invalid data')
     userform = UserForm()
