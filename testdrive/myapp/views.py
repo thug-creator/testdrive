@@ -7,14 +7,17 @@ users = [
     {'name': 'Костиков Г.',
      'phone': '8(905)345-22-12',
      'email': 'kostikov@gmail.com',
+     'datatime': 'Nov. 15, 2025, 10:15 a.m.',
      'car': 'Renault Fluence'},
     {'name': 'Путятин К.А.',
      'phone': '8(905)365-12-12',
      'email': 'putyatin@gmail.com',
+     'datatime': 'Dec. 10, 2025, 11:30 a.m.',
      'car': 'Cadilac Escalade ESV Sport Platinum'},
     {'name': 'Стародубова Д.Д.',
      'phone': '8(905)335-22-22',
      'email': 'starodubova@gmail.com',
+     'datatime': 'Dec. 11, 2025, 15:00 a.m.',
      'car': 'Audi RS7 Perfomance'}
 ]
 
