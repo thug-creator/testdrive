@@ -58,7 +58,7 @@ header {
 .card {
     border: 1px solid #621F1F;
     border-radius: 5px;
-    height: 100px;
+    height: 150px;
     width: 780px;
     display: flex;
     padding: 10px;
